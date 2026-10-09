@@ -1,6 +1,14 @@
-html { scroll-behavior: smooth; }
-body { margin: 0; font-family: Arial, sans-serif; }
-.header { position: sticky; top: 0; padding: 20px 6vw; background: #fff; border-bottom: 1px solid #ccc; }
-nav { display: flex; gap: 18px; }
-main { padding: 20px 6vw 80px; }
-.term { min-height: 75vh; padding-top: 40px; border-bottom: 1px solid #ddd; }
+html {
+  scroll-behavior: smooth;
+}
+
+.header {
+  padding: 16px 24px;
+  background-color: #f0f0f0;
+}
+
+section {
+  min-height: 70vh;
+  padding: 0 24px;
+  scroll-margin-top: 100px;
+}
